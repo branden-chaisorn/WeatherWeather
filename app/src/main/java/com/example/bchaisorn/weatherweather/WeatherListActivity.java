@@ -83,11 +83,12 @@ public class WeatherListActivity extends AppCompatActivity {
                         if (DataUtils.isValidZipCode(input.getText().toString())) {
                             values.add(input.getText().toString());
                             weatherListAdapter.notifyDataSetChanged();
-                            input.setText("");
 
                             Intent intent = new Intent(getApplicationContext(), WeatherDetailActivity.class);
                             intent.putExtra(AppConstants.ZIPCODE, input.getText().toString());
                             startActivity(intent);
+                            
+                            input.setText("");
                         } else {
                             Toast error = Toast.makeText(getApplicationContext(), getString(R.string.invalid_zip_code), Toast.LENGTH_SHORT);
                             error.show();
