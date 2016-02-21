@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherWeather</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_zip_code">Enter a zip code!</string>
+    <string name="invalid_zip_code">Invalid zip code!</string>
+    <string name="title_activity_weather_detail">WeatherDetailActivity</string>
+    <string name="remove_this_item">Remove this item?</string>
+    <string name="remove">Remove</string>
+    <string name="no_data">No data available, please try again!</string>
+    <string name="degrees_f">Degrees Fahrenheit</string>
+    <string name="degrees_c">Degrees Celcius</string>
+    <string name="weather_list_title">Weather List</string>
+    <string name="weather_detail_title">Weather Details</string>
+</resources>
